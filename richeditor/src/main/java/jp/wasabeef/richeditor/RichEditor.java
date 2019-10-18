@@ -331,6 +331,8 @@ public class RichEditor extends WebView {
     exec("javascript:RE.setHeading('" + heading + "');");
   }
 
+  public void setParagraph(){ exec("javascript:RE.setParagraph();");}
+
   public void setIndent() {
     exec("javascript:RE.setIndent();");
   }
